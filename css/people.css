@@ -1,0 +1,22 @@
+#renwu div{width: 800px;margin:auto;margin-top: 20px;border-radius: 5px;background: #FFFFFF;height: 125px;border: 1px solid #9CA3AB;}
+#renwu div img{float: left;margin-right: 20px;}
+#renwu div p{margin-right: 10px;text-indent: 2em;margin-top: 10px;}
+#renwu{width: 900px;margin:auto;background: #FFFFFF;border-radius: 5px;}
+/*翻转图*/
+#three{height: 300px;width: 900px;margin:auto; border: 1px solid #9CA3AB;margin-top: 5px;}
+.font, .back{width: 150px;height: 220px; background:pink;position: absolute;top: 0;left: 0;}
+.font img{width: 100%;}
+#box1{position: relative;left: 50px;top: 20px;height: 200px;width: 150px;float: left;}
+#box2{position: relative;left: 220px;top: 20px;height: 200px;width: 150px;float: left;}
+#box3{position: relative;left: 400px;top: 20px;height: 200px;width: 150px;float: left;}
+.font{z-index: 2;}
+/*设置3D属性*/
+#container{perspective:1000;transform-style:preserve-3d;}
+#box1,#box2,#box3{transition:0.6s;transform-style:preserve-3d;}
+.font, .back{backface-visibility:hidden;}
+.back{transform:rotateY(-180deg);}
+#box1:hover {transform:rotateY(180deg);}
+#box2:hover {transform:rotateY(180deg);}
+#box3:hover {transform:rotateY(180deg);}
+.back h2{text-indent: 2.5em;color: blue;}
+.back p{text-indent: 2em;}

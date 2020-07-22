@@ -1,0 +1,10 @@
+#feedbackcontent{width: 800px;background: #FFFFFF;margin: auto;margin-top: 30px;overflow: hidden;}
+#first{width: 600px;margin: auto;}
+#text{height: 25px;}
+#second{width: 600px;margin: auto;}
+#second h3{float: left;}
+#second p{color: #B5B5B5;}
+#second input{height: 25px;}
+#tj{width: 220px;margin: auto;}
+#tj input{width: 200px;height: 30px;}
+#feedbackcontent img{width: 100%;}

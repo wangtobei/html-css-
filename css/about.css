@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+#content{margin: auto;margin-top: 30px; width: 800px;background:#FFFFFF;}
+#biaoti{background: #FFFFFF;overflow: hidden;}
+#about a{background: #0060C0;}
+body{font:14px Verdana,"Microsoft YaHei"}
+p{padding:10px; text-indent:2em;}
+h3{text-indent:2em;}

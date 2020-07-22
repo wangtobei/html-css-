@@ -1,0 +1,25 @@
+*{margin: 0px;padding: 0px;}
+#tips{height:25px;background: #F2F2F2;margin-right: 20px;}
+#tip{float: right;border: none;height: 25px;background: #F2F2F2;}
+#header{margin-top: 5px;min-width:1300px; height: 50px;width: 100%;background: #70A6DC;}
+#daohang li{float: left;list-style: none;}
+#daohang a{display: block;width: 100px;height: 50px;text-decoration: none;text-align: center;line-height: 50px;color:#ECECEC;background-color:#70A6DC;}
+#search{display: block;width: 300px;height: 25px;margin-right: 1px;float: right;}
+#searchbutton{border: none;display: block;width: 100px;height: 29px;float: right;background: #70A6DC;}  
+#head-top{background: #FFFFFF;}
+body{background: #F5F5F5;font:14px Verdana,"Microsoft YaHei"}
+#logo{float: left;margin-top: 5px;margin-left: 5px;}
+#logo2{margin-left: 60%;}
+#weiba{height: 150px;width: 100%;background: #2D3237;margin-top: 50px;}
+#bili{width: 500px;margin: auto;}
+#daohang a:hover{background-color: #0060C0;}
+/* 下拉菜单*/
+#xlns li{float: none;}
+#xlns{display: none;position: absolute;}
+#team{position:relative;}
+#team:hover #xlns{display: block;}
+#yqlj{margin: auto;width: 600px;margin-top: 30px;}
+#yqlj a{text-decoration: none;color: green;}
+
+
+
